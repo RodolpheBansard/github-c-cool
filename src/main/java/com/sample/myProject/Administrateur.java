@@ -69,4 +69,8 @@ public class Administrateur extends Employe {
 			}
 		}
 	}
+
+	public void achatMateriel(Empruntable empruntable){
+		this.listMateriel().add(empruntable);
+	}
 }
